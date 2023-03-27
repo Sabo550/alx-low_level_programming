@@ -28,9 +28,3 @@ void rev_string(char *s)
 		}
 	}
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-
-    Terms
-    Priva
