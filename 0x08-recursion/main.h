@@ -1,17 +1,15 @@
-#include "main.h"
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-/**
- * _puts_recursion - prints a string, followed by a new line.
- * @s: string
- * Return: no return.
- */
-void _puts_recursion(char *s)
-{
-	if (*s != '\0')
-	{
-		_putchar(*s);
-		_puts_recursion(s + 1);
-	}
-	else
-		_putchar('\n');
-}
+int _putchar(char);
+void _puts_recursion(char *s);
+void _print_rev_recursion(char *s);
+int _strlen_recursion(char *s);
+int factorial(int n);
+int _pow_recursion(int x, int y);
+int _sqrt_recursion(int n);
+int is_prime_number(int n);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
+
+#endif
