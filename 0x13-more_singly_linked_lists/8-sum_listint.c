@@ -5,8 +5,8 @@
  * listint_t list.
  * @head: the head of list.
  *
- * return: if the list is empty - 0.
- *      otherwise- sum of all the data (n).
+ * Return: if list is empty - 0.
+ *      otherwise- sum of all the data.
  */
 int sum_listint(listint_t *head)
 {
